@@ -3,9 +3,10 @@
 
 ## Introduction
 
-This project aims to predict heart disease risk using a **Random Forest Classifier**. The model analyzes patient health metrics such as **age, cholesterol levels, and maximum heart rate achieved** to determine the likelihood of heart disease. The application is deployed on **Streamlit Cloud** for easy access.
+This project aims to predict heart disease risk using a **Random Forest Classifier**. The model analyzes patient health metrics such as **age, cholesterol levels, and maximum heart rate achieved** to determine the likelihood of heart disease. The application is deployed on **Streamlit Cloud** and **Render** for easy access.
 
-🔗 **Live Deployment:** [Heart Disease Prediction App](https://heartdieaseuppy-nv4tmjre98gmrnhvgkhcxa.streamlit.app/)
+🔗 **Live Deployment (Streamlit):** [Heart Disease Prediction App](https://heartdieaseuppy-nv4tmjre98gmrnhvgkhcxa.streamlit.app/)
+🔗 **Live Deployment (Render):** [Heart Disease Prediction App](https://heart-disease-prediction-using-random.onrender.com/)
 
 ## Table of Contents
 - [Project Structure](#project-structure)
@@ -109,7 +110,7 @@ plt.show()
 
 ## Deployment
 
-The application is deployed on **Streamlit Cloud** for easy access.
+The application is deployed on **Streamlit Cloud** and **Render** for easy access.
 
 ### Deployment Steps
 1. **Prepare the App**: Ensure `heartdieaseup.py` contains the Streamlit UI logic.
@@ -118,6 +119,13 @@ The application is deployed on **Streamlit Cloud** for easy access.
    - Go to [Streamlit Cloud](https://streamlit.io/cloud)
    - Connect your GitHub repository
    - Select `heartdieaseup.py` as the entry point
+   - Deploy!
+4. **Deploy to Render**:
+   - Go to [Render](https://render.com/)
+   - Create a new **Web Service**
+   - Connect your GitHub repository
+   - Select Python as the environment
+   - Set the **Start Command** to `streamlit run heartdieaseup.py`
    - Deploy!
 
 ## Conclusion
